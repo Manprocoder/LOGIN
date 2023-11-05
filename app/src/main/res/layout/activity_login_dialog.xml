@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_white_corner16"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint=" CHÀO MỪNG BẠN TRỞ LẠI"
+            android:textAlignment="center"
+            android:textColorHint="#0DA9EF"
+            android:background="@drawable/bg_yello_corner16"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="BẠN ĐĂNG NHẬP VỚI TƯ CÁCH"
+            android:textColorHint="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/qlButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#10EC19"
+            android:text="Quản lý"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/gvButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#DD8B12"
+            android:text="Giảng viên"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/svButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#D5C00E"
+            android:text="Sinh viên"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</RelativeLayout>

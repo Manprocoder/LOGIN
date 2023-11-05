@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_up_out</item>
+    </style>
+
+    <style name="OTPDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize the attributes to match the style of OTPDialog -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- Add other attributes here as needed -->
+    </style>
+
+
+    <style name="ForgotPasswordTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here -->
+    </style>
+
+    <style name="DialogAnimation_2">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_right</item>
+    </style>
+</resources>
