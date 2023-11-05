@@ -1,3 +1,5 @@
+**to install the PROJECT
+firstly, you need to create the DATABASE**
 
 DROP DATABASE account_management;
 CREATE DATABASE account_management;
